@@ -63,8 +63,15 @@ Create a .env file in the root directory and add your API key:
 REACT_APP_OPENWEATHER_API_KEY=your_api_key_here
 
 # Start the application:
+cd .\frontend\
+
+npm i install
 
 npm start
+
+cd .\server\
+
+nodemon server.js
 
 The app will open at http://localhost:3000.
 
